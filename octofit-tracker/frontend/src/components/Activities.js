@@ -6,7 +6,7 @@ function Activities() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('https://ominous-carnival-4x77rp9v4rv3pwr-8000.app.github.dev/api/activities')
+    fetch('https://ominous-carnival-4x77rp9v4rv3pwr-8000.app.github.dev/api/activities.js')
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
